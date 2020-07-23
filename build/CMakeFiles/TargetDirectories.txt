@@ -1,0 +1,7 @@
+/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/build/CMakeFiles/install/strip.dir
+/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/build/CMakeFiles/edit_cache.dir
+/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/build/CMakeFiles/gzh3doz.dir
+/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/build/CMakeFiles/install.dir
+/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/build/CMakeFiles/rebuild_cache.dir
+/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/build/CMakeFiles/list_install_components.dir
+/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/build/CMakeFiles/install/local.dir

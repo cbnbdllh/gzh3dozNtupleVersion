@@ -1,0 +1,15 @@
+/control/verbose 2
+/tracking/verbose 0
+
+/run/initialize
+
+/gps/particle e-
+/gps/pos/type Plane
+/gps/pos/shape Circle
+/gps/pos/radius 3 cm
+/gps/pos/centre 0. 0. 1. cm
+/gps/energy 2 MeV
+
+#
+/run/printProgress 100
+/run/beamOn 3000

@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="gzh3doz"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\Downloads\;CMake Files\..\..\..\..\Downloads\geant\;CMake Files\..\..\..\..\Downloads\geant\geant4.10.06.p01-install\;CMake Files\..\..\..\..\Downloads\geant\geant4.10.06.p01-install\lib\;CMake Files\..\..\..\..\Downloads\geant\geant4.10.06.p01-install\lib\Geant4-10.6.1\;CMake Files\..\..\..\..\Downloads\geant\geant4.10.06.p01-install\lib\Geant4-10.6.1\Modules\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gzh3doz">
+				<Option output="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/cmake-build-debug/gzh3doz" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DG4UI_USE_TCSH"/>
+					<Add option="-DG4INTY_USE_XT"/>
+					<Add option="-DG4VIS_USE_RAYTRACERX"/>
+					<Add option="-DG4INTY_USE_QT"/>
+					<Add option="-DG4UI_USE_QT"/>
+					<Add option="-DG4VIS_USE_OPENGLQT"/>
+					<Add option="-DG4UI_USE_XM"/>
+					<Add option="-DG4VIS_USE_OPENGLXM"/>
+					<Add option="-DG4VIS_USE_OPENGLX"/>
+					<Add option="-DG4VIS_USE_OPENGL"/>
+					<Add option="-DG4LIB_BUILD_DLL"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_OPENGL_LIB"/>
+					<Add directory="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/include"/>
+					<Add directory="/home/cbn/Downloads/geant/geant4.10.06.p01-install/include/Geant4"/>
+					<Add directory="/usr/include/qt4/QtGui"/>
+					<Add directory="/usr/include/qt4/QtCore"/>
+					<Add directory="/usr/share/qt4/mkspecs/default"/>
+					<Add directory="/usr/include/qt4"/>
+					<Add directory="/usr/include/qt4/QtOpenGL"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 gzh3doz"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="gzh3doz/fast">
+				<Option output="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/cmake-build-debug/gzh3doz" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DG4UI_USE_TCSH"/>
+					<Add option="-DG4INTY_USE_XT"/>
+					<Add option="-DG4VIS_USE_RAYTRACERX"/>
+					<Add option="-DG4INTY_USE_QT"/>
+					<Add option="-DG4UI_USE_QT"/>
+					<Add option="-DG4VIS_USE_OPENGLQT"/>
+					<Add option="-DG4UI_USE_XM"/>
+					<Add option="-DG4VIS_USE_OPENGLXM"/>
+					<Add option="-DG4VIS_USE_OPENGLX"/>
+					<Add option="-DG4VIS_USE_OPENGL"/>
+					<Add option="-DG4LIB_BUILD_DLL"/>
+					<Add option="-DQT_GUI_LIB"/>
+					<Add option="-DQT_CORE_LIB"/>
+					<Add option="-DQT_OPENGL_LIB"/>
+					<Add directory="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/include"/>
+					<Add directory="/home/cbn/Downloads/geant/geant4.10.06.p01-install/include/Geant4"/>
+					<Add directory="/usr/include/qt4/QtGui"/>
+					<Add directory="/usr/include/qt4/QtCore"/>
+					<Add directory="/usr/share/qt4/mkspecs/default"/>
+					<Add directory="/usr/include/qt4"/>
+					<Add directory="/usr/include/qt4/QtOpenGL"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 gzh3doz/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/gzh3doz.cc">
+			<Option target="gzh3doz"/>
+		</Unit>
+		<Unit filename="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/include/ActionInitialization.hh">
+			<Option target="gzh3doz"/>
+		</Unit>
+		<Unit filename="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/include/DetectorConstruction.hh">
+			<Option target="gzh3doz"/>
+		</Unit>
+		<Unit filename="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/include/DetectorMessenger.hh">
+			<Option target="gzh3doz"/>
+		</Unit>
+		<Unit filename="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/include/EventAction.hh">
+			<Option target="gzh3doz"/>
+		</Unit>
+		<Unit filename="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/include/HistoManager.hh">
+			<Option target="gzh3doz"/>
+		</Unit>
+		<Unit filename="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/include/PrimaryGeneratorAction.hh">
+			<Option target="gzh3doz"/>
+		</Unit>
+		<Unit filename="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/include/PrimaryGeneratorMessenger.hh">
+			<Option target="gzh3doz"/>
+		</Unit>
+		<Unit filename="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/include/Run.hh">
+			<Option target="gzh3doz"/>
+		</Unit>
+		<Unit filename="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/include/RunAction.hh">
+			<Option target="gzh3doz"/>
+		</Unit>
+		<Unit filename="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/include/RunData.hh">
+			<Option target="gzh3doz"/>
+		</Unit>
+		<Unit filename="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/include/SteppingAction.hh">
+			<Option target="gzh3doz"/>
+		</Unit>
+		<Unit filename="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/include/TrackInformation.hh">
+			<Option target="gzh3doz"/>
+		</Unit>
+		<Unit filename="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/include/TrackingAction.hh">
+			<Option target="gzh3doz"/>
+		</Unit>
+		<Unit filename="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/src/ActionInitialization.cc">
+			<Option target="gzh3doz"/>
+		</Unit>
+		<Unit filename="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/src/DetectorConstruction.cc">
+			<Option target="gzh3doz"/>
+		</Unit>
+		<Unit filename="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/src/DetectorMessenger.cc">
+			<Option target="gzh3doz"/>
+		</Unit>
+		<Unit filename="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/src/EventAction.cc">
+			<Option target="gzh3doz"/>
+		</Unit>
+		<Unit filename="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/src/PrimaryGeneratorAction.cc">
+			<Option target="gzh3doz"/>
+		</Unit>
+		<Unit filename="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/src/PrimaryGeneratorMessenger.cc">
+			<Option target="gzh3doz"/>
+		</Unit>
+		<Unit filename="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/src/Run.cc">
+			<Option target="gzh3doz"/>
+		</Unit>
+		<Unit filename="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/src/RunAction.cc">
+			<Option target="gzh3doz"/>
+		</Unit>
+		<Unit filename="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/src/RunData.cc">
+			<Option target="gzh3doz"/>
+		</Unit>
+		<Unit filename="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/src/SteppingAction.cc">
+			<Option target="gzh3doz"/>
+		</Unit>
+		<Unit filename="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/src/TrackInformation.cc">
+			<Option target="gzh3doz"/>
+		</Unit>
+		<Unit filename="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/src/TrackingAction.cc">
+			<Option target="gzh3doz"/>
+		</Unit>
+		<Unit filename="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/electron.mac">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/gun.mac">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/gzh3doz.out">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/scint_by_particle.mac">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/vis.mac">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/../../../../Downloads/geant/geant4.10.06.p01-install/lib/Geant4-10.6.1/G4EXPATShim.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Downloads\geant\geant4.10.06.p01-install\lib\Geant4-10.6.1\"/>
+		</Unit>
+		<Unit filename="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/../../../../Downloads/geant/geant4.10.06.p01-install/lib/Geant4-10.6.1/G4MotifShim.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Downloads\geant\geant4.10.06.p01-install\lib\Geant4-10.6.1\"/>
+		</Unit>
+		<Unit filename="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/../../../../Downloads/geant/geant4.10.06.p01-install/lib/Geant4-10.6.1/G4X11Shim.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Downloads\geant\geant4.10.06.p01-install\lib\Geant4-10.6.1\"/>
+		</Unit>
+		<Unit filename="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/../../../../Downloads/geant/geant4.10.06.p01-install/lib/Geant4-10.6.1/Geant4Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Downloads\geant\geant4.10.06.p01-install\lib\Geant4-10.6.1\"/>
+		</Unit>
+		<Unit filename="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/../../../../Downloads/geant/geant4.10.06.p01-install/lib/Geant4-10.6.1/Geant4ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Downloads\geant\geant4.10.06.p01-install\lib\Geant4-10.6.1\"/>
+		</Unit>
+		<Unit filename="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/../../../../Downloads/geant/geant4.10.06.p01-install/lib/Geant4-10.6.1/Geant4LibraryDepends-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Downloads\geant\geant4.10.06.p01-install\lib\Geant4-10.6.1\"/>
+		</Unit>
+		<Unit filename="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/../../../../Downloads/geant/geant4.10.06.p01-install/lib/Geant4-10.6.1/Geant4LibraryDepends.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Downloads\geant\geant4.10.06.p01-install\lib\Geant4-10.6.1\"/>
+		</Unit>
+		<Unit filename="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/../../../../Downloads/geant/geant4.10.06.p01-install/lib/Geant4-10.6.1/Geant4PackageCache.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Downloads\geant\geant4.10.06.p01-install\lib\Geant4-10.6.1\"/>
+		</Unit>
+		<Unit filename="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/../../../../Downloads/geant/geant4.10.06.p01-install/lib/Geant4-10.6.1/UseGeant4.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Downloads\geant\geant4.10.06.p01-install\lib\Geant4-10.6.1\"/>
+		</Unit>
+		<Unit filename="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/../../../../Downloads/geant/geant4.10.06.p01-install/lib/Geant4-10.6.1/Modules/IntelCompileFeatures.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Downloads\geant\geant4.10.06.p01-install\lib\Geant4-10.6.1\Modules\"/>
+		</Unit>
+		<Unit filename="/home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/../../../../Downloads/geant/geant4.10.06.p01-install/lib/Geant4-10.6.1/Modules/MSVCCompileFeatures.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\Downloads\geant\geant4.10.06.p01-install\lib\Geant4-10.6.1\Modules\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,4 @@
+/home/cbn/Downloads/CLion-2020.1.2/clion-2020.1.2/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/cbn/geantWorks/patentWorks/detailSim/deneme7_2
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/cbn/geantWorks/patentWorks/detailSim/deneme7_2/cmake-build-debug
